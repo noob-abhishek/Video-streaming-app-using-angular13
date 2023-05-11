@@ -1,0 +1,83 @@
+.navbar {
+  background-color: #202020;
+}
+
+.navbar-brand img {
+  height: 24px;
+}
+
+.navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.form-control {
+  background-color: #201b1b;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  height: 36px;
+  padding: 6px 10px;
+  width: 400px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn-outline-secondary {
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  height: 36px;
+  padding: 6px 16px;
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.8);
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+.navbar-nav .nav-link i {
+  font-size: 18px;
+  margin-left: 6px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  color: #fff;
+}
+.nav-search{
+  margin-left: 5%;
+  margin-right: 25%;
+}
+.button{
+  margin-top: 1px;
+  height: 35px;
+  border-radius:  40px 999em 999em 40px;;
+  text-align: center;
+}
+.login-btn{
+  color: #fff;
+  background-color: #43A047;
+}
